@@ -3344,12 +3344,12 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Lexxy24/KaguraMD'
+                                    url: 'https://github.com/XzeeBotz/v1'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 822-7991-5237'
+                                    phoneNumber: '+6281381685954'
                                 }
                             },{
                                 quickReplyButton: {
@@ -3369,13 +3369,13 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        kagura.send5ButImg(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.thumb, btn)
+                        kagura.send5ButImg(m.chat, anu, `© CREATED BY BOT OFFICIAL WHATSAPP`, global.thumb, btn)
                         } else if (setbot.templateGif) {
-                        kagura.send5ButGif(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.visoka, btn)
+                        kagura.send5ButGif(m.chat, anu, `© CREATED BY BOT OFFICIAL WHATSAPP`, global.visoka, btn)
                         } else if (setbot.templateVid) {
-                        kagura.send5ButVid(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.visoka, btn)
+                        kagura.send5ButVid(m.chat, anu, `© CREATED BY BOT OFFICIAL WHATSAPP`, global.visoka, btn)
                         } else if (setbot.templateMsg) {
-                        kagura.send5ButMsg(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, btn)
+                        kagura.send5ButMsg(m.chat, anu, `© CREATED BY BOT OFFICIAL WHATSAPP`, btn)
                         }
                      }
             break
