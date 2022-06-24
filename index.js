@@ -71,7 +71,7 @@ async function startkagura() {
     const kagura = kaguraConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Kagura Multi Device','Safari','1.0.0'],
+        browser: ['BOT OFFICIAL WHATSAPP','Safari','1.0.0'],
         auth: state
     })
 
